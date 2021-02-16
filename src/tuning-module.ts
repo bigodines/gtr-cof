@@ -20,6 +20,14 @@ namespace tuning {
         [12, 1]
     ];
 
+    // Cavaquinho 
+    let cavaquinhoDots: Array<[number, number]> = [
+        [5, 0],
+        [7, 0],
+        [9, 0],
+        [12, 0],
+    ]
+
     interface TuningInfo {
         readonly tuning: string;
         readonly dots: Array<[number, number]>;
@@ -55,8 +63,8 @@ namespace tuning {
         { tuning: "BEADGC", dots: guitarDots, description: "Bass 6 Strings Standard" },
         { tuning: "BEADGCF", dots: guitarDots, description: "Bass 7 Strings Standard" },
 
-        { tuning: "DGBD", dots: guitarDots, description: "Banjo" },
-        { tuning: "DGBD", dots: guitarDots, description: "Cavaquinho"},
+        { tuning: "DGBD", dots: cavaquinhoDots, description: "Banjo" },
+        { tuning: "DGBD", dots: cavaquinhoDots, description: "Cavaquinho"},
         { tuning: "GCEA", dots: guitarDots, description: "Ukulele C" },
         { tuning: "CGDA", dots: violaDots, description: "Cello" },
         { tuning: "GDAE", dots: violaDots, description: "Violin" },
